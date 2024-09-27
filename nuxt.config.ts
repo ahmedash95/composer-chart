@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
 
   // https://nuxt.com/modules
-  modules: ['@nuxthub/core', '@nuxt/eslint', '@nuxt/ui', '@nuxt/fonts', '@vueuse/nuxt', 'nuxt-og-image', '@nuxtjs/plausible'],
+  modules: ['@nuxthub/core', '@nuxt/eslint', '@nuxt/ui', '@nuxt/fonts', '@vueuse/nuxt', 'nuxt-og-image', '@nuxtjs/plausible', 'nuxt-fathom'],
+
+  fathom: {
+    siteId: "YILJGCQW",
+  },
+
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
   hub: {
